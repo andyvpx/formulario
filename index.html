@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Brandon Vargas</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+        <!--
+
+        1. Formulario con los campos: Nombre, Apellido, Email, Teléfono, Dirección, Mensaje.
+        2. Boton de enviar el formulario: Evento submit.
+        
+        -->
+
+
+        <div class="box">
+            <h1>Ponte en contacto</h1>
+            <form action="#" method="POST" id="formulario" onsubmit="return false">
+                <p>
+                    <input class="box-nombre" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </p>
+                <p>
+                    <input class="box-apellido" type="text" name="apellido" id="apellido" placeholder="Apellido">
+                </p>
+                <p>
+                    <input class="box-correo" type="email" name="correo" id="correo" placeholder="Email">            
+                </p>
+                <p>
+                    <input class="box-telefono" type="text" name="telefono" id="telefono" placeholder="Teléfono">                  
+                </p>
+                <p class="block">
+                    <input class="box-direccion" type="text" name="direccion" id="direccion" placeholder="Dirección">              
+                </p>
+                <p class="block">
+                    <input class="box-mensaje" type="text" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí">                   
+                </p>
+                <p>
+                    <input class="box-enviar" type="submit" value="Enviar">
+               
+                </p>
+            </form>
+        </div>
+</body>
+</html>
